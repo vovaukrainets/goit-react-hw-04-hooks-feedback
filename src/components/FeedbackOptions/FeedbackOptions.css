@@ -1,0 +1,15 @@
+.FeedbackOptions__btn {
+  color: #000;
+  padding: 5px;
+  border: 1px solid #000;
+  background-color: transparent;
+  cursor: pointer;
+  border-radius: 4px;
+}
+.FeedbackOptions__btn:hover {
+  color: #fff;
+  background-color: blue;
+}
+.FeedbackOptions__btn:not(:last-child) {
+  margin-right: 10px;
+}
